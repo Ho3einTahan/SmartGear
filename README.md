@@ -44,5 +44,5 @@ This project is licensed under the MIT License.
 ## Contributing
 Feel free to fork this repository and submit pull requests to improve the application.
 
-## Contact
-For any issues or suggestions, reach out to **your_email@example.com** or create an issue in the repository.
+### Thanks For Watching
+#### © 2025, All rights reserved. Developed by Ho3ein Tahan
