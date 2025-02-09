@@ -1,16 +1,48 @@
-# smart_gear
+# Bluetooth Hardware Connection App
 
-A new Flutter project.
+## Overview
+This Flutter application enables communication between an Arduino board and a mobile device using Bluetooth technology. It allows users to send and receive data wirelessly.
 
-## Getting Started
+## Features
+- Connect to an Arduino board via Bluetooth
+- Send and receive data
+- Display real-time data from the board
+- Automatic reconnection
+- User-friendly interface
 
-This project is a starting point for a Flutter application.
+## Requirements
+- An Arduino board with Bluetooth module (e.g., HC-05, HC-06)
+- A mobile device with Bluetooth enabled
+- Flutter SDK installed
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+### Clone the repository
+```bash
+git clone https://github.com/Ho3einTahan/SmartGear.git
+cd SmartGear
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Install dependencies
+```bash
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Run the application
+```bash
+flutter run
+```
+
+## Usage
+1. Turn on Bluetooth on your device.
+2. Open the application and scan for available Bluetooth devices.
+3. Select the Arduino board from the list.
+4. Establish a connection and start sending/receiving data.
+
+## License
+This project is licensed under the MIT License.
+
+## Contributing
+Feel free to fork this repository and submit pull requests to improve the application.
+
+## Contact
+For any issues or suggestions, reach out to **your_email@example.com** or create an issue in the repository.
